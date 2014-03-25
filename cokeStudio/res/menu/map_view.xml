@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item 
+        android:id="@+id/menu_gotolocation"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/goToALocation"
+        />
+    
+    <item 
+        android:id="@+id/menu_addmarker"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/addMarker"
+        />
+    
+    <item 
+        android:id="@+id/menu_getcurrentlocation"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/getCurrentLocation"
+        />
+    
+    <item 
+        android:id="@+id/menu_showcurrentlocation"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/showCurrentLocation"
+        />
+
+</menu>
